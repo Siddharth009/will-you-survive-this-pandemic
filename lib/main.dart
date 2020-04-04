@@ -39,8 +39,8 @@ class _MyAppState extends State<MyApp> {
       'questionText': 'How many times you\'re washing your hands in a day?',
       'answers': [
         {'text': 'Less than 3', 'score': 15},
-        {'text': '4-7 times', 'score': 5},
-        {'text': 'More than 7', 'score': 10}
+        {'text': '4-7 times', 'score': 10},
+        {'text': 'More than 7', 'score': 5}
       ]
     },
   ];
