@@ -8,10 +8,10 @@ Result(this.resultScore, this.resetHandler);
 
 String get resultPhrase {
   var rText = "Quiz is over";
-  if(resultScore <=10) {
+  if(resultScore <=35) {
     rText = 'You are a aware human being. You\'ll be safe from Corona.';
 
-  } else if(resultScore> 10 && resultScore <=20) {
+  } else if(resultScore> 35 && resultScore <=45) {
     rText = 'You need to be careful more!';
   } else {
     rText = 'God! You\'re pretty stupid, Corona is looking for you!!';
